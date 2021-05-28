@@ -1,37 +1,67 @@
-
-body{   
-    margin: 0%;
-    height: 2000px;
-    width: 100%;
+body{
+ margin: 0%;
+ height: 900px;
 }
-.background-everythings{
-    width: 100%;
-    height: 100%;
-    background-color: white;
+.head{
+
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:100%;
+    height: 60px;
+}
+.head >a{
+    text-decoration: none;
+    margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.bettwen{
+ 
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+ 
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    height: 270px;
+    
+}
+.select>a{
+    margin: 20px;
+    color: #333;
+     text-decoration: none; background-color: #F8F9FA;
+     width: 90px;
    
 }
-.inside-background-everythings{
-  width: 60%;
-  height: 100%;
-  /* background-color: black; */
-  display: flex;
-
+.searching{
+    width: 500px;
+    height: 30px;
+    border:solid 0.115px;
+    border-radius: 20px;
 }
-.header{
-  width: 100%;
-  height: 180px;
-  display: flex;
-}
-.inputheader{
-    width: 30%;
+.topfooter{
+    
     display: flex;
-    justify-content:flex-end ;
-    align-items: center;
+    width: 100%;
+    position: fixed;
+    height: 100px;
+    bottom: 0;
 }
-.photoinheader{
-    display: flex;
-    justify-content:center   ;
-    align-items: center;
+.insidefoot{
+    width: 100%;
+    height: 50px;
+ 
 }
+/* .nextfoot{
+    width: 100%;
+    height 50px;
+    background:dimgrey;
+} */
