@@ -1,0 +1,91 @@
+<html>
+  <body>
+    <div class="mainn">
+       <div class="box-1"></div>
+       <div class="box-2"></div>
+       <div class="box-3"></div>
+       <div class="box-4"></div>
+       <div class="box-5"></div>
+       <div class="box-6"></div>
+    </div>
+  </body>
+  <style>
+  
+    body{
+    margin:0;
+    }
+    .mainn{
+      transform-style: preserve-3d;
+      width:200px;
+      height:200px;
+      transform-origin:button left;
+      position:absolute; 
+       left:200px;
+         top:400px;
+      transform:rotateY(-30deg) rotateX(60deg);
+          animation:ten 10s infinite linear;  
+      
+      
+    }
+     .box-1{
+     width:200px;
+      height:200px;
+      background-color:rgba(0, 128, 0, 0.372);
+     position:absolute;
+  
+       
+    }
+    
+    .box-2{
+     width:200px;
+      height:200px;
+      background-color:rgba(255, 0, 0, 0.427);
+      position:absolute;
+     transform-origin:top;
+      transform:translateY(200px) rotateX(90deg);
+      
+      
+    }
+    .box-3{
+     width:200px;
+      height:200px;
+      background-color:#16255570;
+      position:absolute; 
+      transform-origin:top;
+      transform:rotateX(90deg);
+     
+    }
+      .box-4{
+     width:200px;
+      height:200px;
+      background-color:rgba(17, 84, 136, 0.297);
+         position:absolute; 
+        transform:rotateY(-90deg);
+        transform-origin:top left;
+       
+    }
+   .box-5{
+     width:200px;
+      height:200px;
+      background-color:rgba(0, 0, 0, 0.399);
+         position:absolute; 
+      transform-origin:left;
+     transform:translateZ(200px) 
+
+    }
+    .box-6{
+    width:200px;
+      height:200px;
+      background-color:rgba(255, 192, 203, 0.338);
+      position:absolute;
+      transform-origin:left;
+      transform:translateX(200px) rotateY(-90deg);
+      
+    }
+    @keyframes ten {
+      to {transform:rotateY(360deg) rotateX(90deg);}
+      
+    }
+    
+  </style>
+</html>
